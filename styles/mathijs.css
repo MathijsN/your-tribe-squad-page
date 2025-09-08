@@ -5,6 +5,7 @@ body {
 .bento-grid {
     display: grid;
     gap: 0.75rem;
+    overflow: hidden;
 
     @media (min-width: 480px) {
         grid-template-columns: repeat(2, 1fr);
@@ -29,8 +30,12 @@ a {
     color: black;
 }
 
-.bento-grid > div {
+/* .bento-grid > div {
 border-bottom: 1px solid black;
+} */
+
+.hovered {
+    border-bottom: 1px solid black;
 }
 
 .grid-img-wrapper {

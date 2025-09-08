@@ -1,8 +1,14 @@
-const body = document.body
+const gridElement = document.querySelector(".bento-grid")
 
 function getCurrentTarget(e) {
-    const nowTarget = e.target
-    console.log(nowTarget)
+    console.log(e.target)
+    
+    if (e.target && e.target.matches('.bento-grid')) {
+
+        e.target.classList.toggle('hovered')
+    }
+
 }
 
-body.addEventListener('click', getCurrentTarget)
+gridElement.addEventListener('mouseenter', getCurrentTarget)
+gridElement.addEventListener('mouseleave', getCurrentTarget)
