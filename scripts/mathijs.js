@@ -1,8 +1,8 @@
 const body = document.body
 
-function changeClass(e) {
+function getCurrentTarget(e) {
     const nowTarget = e.target
     console.log(nowTarget)
 }
 
-body.addEventListener('click', changeClass)
+body.addEventListener('click', getCurrentTarget)
