@@ -1,0 +1,39 @@
+body {
+    font-family: sans-serif;
+}
+
+.bento-grid {
+    display: grid;
+    gap: 1rem;
+
+    @media (min-width: 450px) {
+    }
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.bento-grid > :nth-child(1) {
+border-bottom: 1px solid black;
+}
+
+.grid-img-wrapper {
+    width: 100%;
+    height: 100vw;
+    background-image: url("../assets/img/mario.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.grid-text-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.arrow-svg {
+    width: 24px;
+    transform: rotate(90deg);
+}
