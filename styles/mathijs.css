@@ -10,6 +10,13 @@ body {
     @media (min-width: 480px) {
         grid-template-columns: repeat(2, 1fr);
         gap: 1rem;
+        
+        .span2 {
+            grid-column: span 2;
+            .grid-img {
+            filter: blur(0);
+            }
+        }
     }
     @media (min-width: 768px) {
         grid-template-columns: repeat(3, 1fr);
@@ -40,15 +47,18 @@ a {
 }
 
 .grid-wrapper:hover {
-    transform: scale(1.1);
-    border-bottom: 1px solid black;
+    @media (min-width: 1279px) {
 
-    .grid-img {
-    filter: blur(0);
-    }
-
-    .arrow-svg {
-    transform: rotate(45deg);
+        transform: scale(1.1);
+        border-bottom: 1px solid black;
+    
+        .grid-img {
+        filter: blur(0);
+        }
+    
+        .arrow-svg {
+        transform: rotate(45deg);
+        }
     }
 }
 
@@ -56,8 +66,11 @@ a {
     width: 100%;
     height: 200px;
     object-fit: cover;
-    filter: blur(10px);
-    transition: 0.25s ease-in-out;
+    
+    @media (min-width: 1279px) {
+        filter: blur(10px);
+        transition: 0.25s ease-in-out;
+    }
 }
 
 .grid-text-wrapper {

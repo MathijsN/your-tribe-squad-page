@@ -5,7 +5,7 @@ const gridElement = document.querySelector(".bento-grid")
 function renderTable() {
     arr.forEach((person) => 
         gridElement.innerHTML += `
-        <div class="grid-wrapper">
+        <div class="grid-wrapper ${person.class}">
                 <a href="${person.profileCard}" target="_blank">
                 <div class="grid-img-wrapper">
                     <img src=${person.img} alt="" class="grid-img">
