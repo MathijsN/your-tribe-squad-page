@@ -8,7 +8,7 @@ function renderTable() {
         <div class="grid-wrapper ${person.class}">
                 <a href="${person.profileCard}" target="_blank">
                 <div class="grid-img-wrapper">
-                    <img src=${person.img} alt="" class="grid-img">
+                    <img src=${person.img} alt="" class="grid-img" loading="lazy">
                 </div>
                 <div class="grid-text-wrapper" id="${person.name}">
                     <p>${person.name}</p>

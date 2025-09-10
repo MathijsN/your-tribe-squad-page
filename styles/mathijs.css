@@ -59,6 +59,29 @@ a {
     }
 }
 
+
+
+
+/* doet het nog niet */
+
+.grid-wrapper:focus {
+        transform: scale(1.05);
+        border-bottom: 1px solid black;
+    
+        .grid-img {
+        filter: blur(0);
+        }
+    
+        .arrow-svg {
+        transform: rotate(45deg);
+        }
+}
+
+
+
+
+
+
 .grid-img {
     width: 100%;
     height: 200px;

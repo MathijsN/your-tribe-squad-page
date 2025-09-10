@@ -31,20 +31,20 @@ export const arr  = [
         profileCard: "https://sadaf-design.github.io/your-tribe-profile-card/"
         },
     {
-            name: "Sieuwke",
-            img: "https://moowy.nl/wp-content/uploads/sites/3/2023/11/wilde-bloemen.jpeg",
-            profileCard: "https://sieuwkesheta.github.io/your-tribe-profile-card/"
+        name: "Sieuwke",
+        img: "https://moowy.nl/wp-content/uploads/sites/3/2023/11/wilde-bloemen.jpeg",
+        profileCard: "https://sieuwkesheta.github.io/your-tribe-profile-card/"
+        },
+        {
+            name: "Luka",
+            img: "https://cms-prd.cms.hva.nl/site/binaries/content/gallery/shared/locatie/portrait-images/hva-locaties/benno-premselahuis-bph.jpg/benno-premselahuis-bph.jpg/hvacontentservice%3AoneByOneLarge",
+            profileCard: "https://millie8969.github.io/lmd-profile-card/"
         },
     {
-         name: "BPH",
-         img: "https://cms-prd.cms.hva.nl/site/binaries/content/gallery/shared/locatie/portrait-images/hva-locaties/benno-premselahuis-bph.jpg/benno-premselahuis-bph.jpg/hvacontentservice%3AoneByOneLarge",
-         profileCard: "https://www.hva.nl/locaties/benno-premselahuis",
-         class: "span2"
-         },
-    {
-        name: "Luka",
+        name: "BPH",
         img: "https://cms-prd.cms.hva.nl/site/binaries/content/gallery/shared/locatie/portrait-images/hva-locaties/benno-premselahuis-bph.jpg/benno-premselahuis-bph.jpg/hvacontentservice%3AoneByOneLarge",
-        profileCard: "https://millie8969.github.io/lmd-profile-card/"
+        profileCard: "https://www.hva.nl/locaties/benno-premselahuis",
+        class: "span2"
         },
     {
         name: "Bronx",
