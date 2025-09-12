@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(205, 205, 205);
+}
+
+.container{
+display: grid;
+justify-content: center;
+grid-template-columns: 1fr 1fr 1fr;
+gap: 100px;
+margin: 50px;
+padding: 70px;
+}
+
+img{
+width: 100%;
+height: 100%;
+object-fit: cover;
+border: rgb(162, 229, 244) 5px solid;
+border-radius: 5%;
+transform: scale(1.03);
+transition: filter 260ms ease, transform 260ms ease;
+}
+
+.card-container:hover img{
+  transform: scale(1.0);
+}
+
+.name-label{
+    color: rgb(0, 0, 0);
+}
+
+.card-container.school{  
+grid-row: span 2
+}
+
+.card-container.profile{
+    aspect-ratio: 16/9; 
+}
+
+.card-container.profile img {
+    filter: blur(5px);
+}
