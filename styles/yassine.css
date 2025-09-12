@@ -17,12 +17,16 @@ height: 100%;
 object-fit: cover;
 border: rgb(162, 229, 244) 5px solid;
 border-radius: 5%;
-transform: scale(1.03);
-transition: filter 260ms ease, transform 260ms ease;
 }
 
+.card-container.profile img {
+    filter: blur(5px);
+} 
+
 .card-container:hover img{
-  transform: scale(1.0);
+  transform: scale(1.2);
+  filter: blur(0px);
+  transition: filter 260ms ease, transform 260ms ease;
 }
 
 .name-label{
@@ -35,8 +39,4 @@ grid-row: span 2
 
 .card-container.profile{
     aspect-ratio: 16/9; 
-}
-
-.card-container.profile img {
-    filter: blur(5px);
 }
