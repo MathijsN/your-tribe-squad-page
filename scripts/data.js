@@ -2,7 +2,7 @@ export const arr  = [
     {
         name: "Mathijs",
         img: "https://vitalgym.nl/wp-content/uploads/2022/05/DSC04854-1024x684-1.jpg",
-        profileCard: "https://mathijsn.github.io/your-tribe-profile-card/"
+        profileCard: "https://mathijsn.github.io/your-tribe-profile-card/",
         },
     {
         name: "MLH",
@@ -35,10 +35,10 @@ export const arr  = [
         img: "https://moowy.nl/wp-content/uploads/sites/3/2023/11/wilde-bloemen.jpeg",
         profileCard: "https://sieuwkesheta.github.io/your-tribe-profile-card/"
         },
-        {
-            name: "Luka",
-            img: "https://cms-prd.cms.hva.nl/site/binaries/content/gallery/shared/locatie/portrait-images/hva-locaties/benno-premselahuis-bph.jpg/benno-premselahuis-bph.jpg/hvacontentservice%3AoneByOneLarge",
-            profileCard: "https://millie8969.github.io/lmd-profile-card/"
+    {
+        name: "Luka",
+        img: "https://i.guim.co.uk/img/media/58dfcfd35bff2e7597d233f9eae0b9f549062190/220_136_1648_989/500.jpg?quality=85&auto=format&fit=max&s=a54eea0bc98e4b17de77ed0681bc1cfc",
+        profileCard: "https://millie8969.github.io/lmd-profile-card/"
         },
     {
         name: "BPH",
@@ -48,7 +48,7 @@ export const arr  = [
         },
     {
         name: "Bronx",
-        img: "https://cms-prd.cms.hva.nl/site/binaries/content/gallery/shared/locatie/portrait-images/hva-locaties/benno-premselahuis-bph.jpg/benno-premselahuis-bph.jpg/hvacontentservice%3AoneByOneLarge",
+        img: "https://progressgym.nl/wp-content/uploads/2025/01/8f0c59d4-cfa0-42c6-8e12-d54a213253d6.jpg",
         profileCard: "https://bronxpostma13.github.io/your-tribe-profile-card/"
         },
      {
@@ -59,22 +59,22 @@ export const arr  = [
         },
     {
         name: "Jamie",
-        img: "https://cms-prd.cms.hva.nl/site/binaries/content/gallery/shared/locatie/portrait-images/hva-locaties/benno-premselahuis-bph.jpg/benno-premselahuis-bph.jpg/hvacontentservice%3AoneByOneLarge",
+        img: "https://www.allianz-trade.com/nl_NL/nieuws-tips/export-groei/landenrisicos-rapport/frankrijk/_jcr_content/root/parsys/stage_copy/stageimage.img.82.3360.jpeg/1712908392432/parijs.jpeg",
         profileCard: "https://jamievos991.github.io/HVA-Visitekaartje/"
         },
     {
         name: "Chama",
-        img: "https://cms-prd.cms.hva.nl/site/binaries/content/gallery/shared/locatie/portrait-images/hva-locaties/benno-premselahuis-bph.jpg/benno-premselahuis-bph.jpg/hvacontentservice%3AoneByOneLarge",
+        img: "https://www.maxiaxi.com/media/wysiwyg/Blog/Dance4Liberation-house-festival-blog.jpg",
         profileCard: "https://chewsy.github.io/visitekaartje/"
         },
     {
         name: "Kurollos",
-        img: "https://cms-prd.cms.hva.nl/site/binaries/content/gallery/shared/locatie/portrait-images/hva-locaties/benno-premselahuis-bph.jpg/benno-premselahuis-bph.jpg/hvacontentservice%3AoneByOneLarge",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfxgD8dua7ZPeaCEJZ5DDMiREo0Qaf_jMAuA&s",
         profileCard: "https://kurollos.github.io/your-tribe-profile-card/"
         },
     {
         name: "Ke",
-        img: "https://cms-prd.cms.hva.nl/site/binaries/content/gallery/shared/locatie/portrait-images/hva-locaties/benno-premselahuis-bph.jpg/benno-premselahuis-bph.jpg/hvacontentservice%3AoneByOneLarge",
+        img: "https://i.natgeofe.com/n/e2f26e6b-8255-4391-84be-4b0919d4c0d8/20240626-0349-Jonathan%20Irish-NGCW-CITI-AA-Amsterdam-_7R52855.jpg",
         profileCard: "https://kebiemen.github.io/your-tribe-profile-card/"
         },
         {
@@ -85,7 +85,7 @@ export const arr  = [
         },
     {
         name: "Kevin",
-        img: "https://cms-prd.cms.hva.nl/site/binaries/content/gallery/shared/locatie/portrait-images/hva-locaties/benno-premselahuis-bph.jpg/benno-premselahuis-bph.jpg/hvacontentservice%3AoneByOneLarge",
+        img: "https://a-z-animals.com/media/2022/09/shutterstock_1754084492-1024x683.jpg",
         profileCard: "https://toasterbath0758.github.io/your-tribe-profile-card/"
         },
     {
@@ -96,22 +96,22 @@ export const arr  = [
         },
     {
         name: "Ahlam",
-        img: "https://cms-prd.cms.hva.nl/site/binaries/content/gallery/shared/locatie/portrait-images/hva-locaties/benno-premselahuis-bph.jpg/benno-premselahuis-bph.jpg/hvacontentservice%3AoneByOneLarge",
+        img: "https://promove.nu/wp-content/uploads/2023/09/sportief-wandelen-hero-1.jpg",
         profileCard: "https://addaahva.github.io/your-tribe-profile-card/"
         },
     {
         name: "Mete",
-        img: "https://cms-prd.cms.hva.nl/site/binaries/content/gallery/shared/locatie/portrait-images/hva-locaties/benno-premselahuis-bph.jpg/benno-premselahuis-bph.jpg/hvacontentservice%3AoneByOneLarge",
+        img: "https://code.visualstudio.com/assets/docs/languages/javascript/overview.png",
         profileCard: "https://mete2004.github.io/your-tribe-profile-card/"
         },
     {
         name: "Jasin",
-        img: "https://cms-prd.cms.hva.nl/site/binaries/content/gallery/shared/locatie/portrait-images/hva-locaties/benno-premselahuis-bph.jpg/benno-premselahuis-bph.jpg/hvacontentservice%3AoneByOneLarge",
+        img: "https://www.dji.nl/binaries/large/content/gallery/dji/attentie-afbeeldingen/locaties/pi-vught.jpg",
         profileCard: "https://jasinahmed.github.io/your-tribe-profile-card/"
         },
     {
         name: "Tzgaming",
-        img: "https://cms-prd.cms.hva.nl/site/binaries/content/gallery/shared/locatie/portrait-images/hva-locaties/benno-premselahuis-bph.jpg/benno-premselahuis-bph.jpg/hvacontentservice%3AoneByOneLarge",
+        img: "https://r.testifier.nl/Acbs8526SDKI/resizing_type:fit/width:3840/height:2560/plain/https://s3-newsifier.ams3.digitaloceanspaces.com/xgn.nl/images/2025-04/donkey-kong-bananza-banana-eyes-67ee6753c0428.png@webp",
         profileCard: "https://tzgaming.github.io/your-tribe-profile-card/"
         },
     {
@@ -122,17 +122,17 @@ export const arr  = [
         },
     {
         name: "Lynn",
-        img: "https://cms-prd.cms.hva.nl/site/binaries/content/gallery/shared/locatie/portrait-images/hva-locaties/benno-premselahuis-bph.jpg/benno-premselahuis-bph.jpg/hvacontentservice%3AoneByOneLarge",
+        img: "https://www.pijn.nl/images/sociaal-netwerk.jpg",
         profileCard: "https://lynnvdbo.github.io/your-tribe-profile-card/"
         },
     {
         name: "Julian",
-        img: "https://cms-prd.cms.hva.nl/site/binaries/content/gallery/shared/locatie/portrait-images/hva-locaties/benno-premselahuis-bph.jpg/benno-premselahuis-bph.jpg/hvacontentservice%3AoneByOneLarge",
+        img: "https://termaatmotoren.nl/wp-content/uploads/2024/02/yamaha-header-termaat.jpg",
         profileCard: "https://juliandavelaar.github.io/your-tribe-profile-card/"
         },
     {
         name: "Ayoub",
-        img: "https://cms-prd.cms.hva.nl/site/binaries/content/gallery/shared/locatie/portrait-images/hva-locaties/benno-premselahuis-bph.jpg/benno-premselahuis-bph.jpg/hvacontentservice%3AoneByOneLarge",
+        img: "https://i.redd.it/oot9id24fz971.jpg",
         profileCard: "https://ayoubkh1.github.io/your-tribe-profile-card/"
         },
 ]
