@@ -12,6 +12,12 @@ h1 {
     flex-direction: row;
     width: 100%;
     justify-content: right;
+    align-items: center;
+}
+.flex-header p {
+    font-size: 0.6rem;
+    font-weight: bold;
+    color: rgb(170, 170, 170);
 }
 
 .flex-header a {
