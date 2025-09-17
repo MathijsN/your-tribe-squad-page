@@ -6,6 +6,10 @@ Dit is ons eerste project als team. Wij hebben een pagina gemaakt waarin alle pr
 ![mockuuups-free-macbook-pro-mockup-on-stone-pedestal-min](https://github.com/user-attachments/assets/0a86e560-70d8-4386-aafd-90abdfb86ddd)
 ![mockup-min](https://github.com/user-attachments/assets/62f3a884-6c56-4da5-8737-1f2ceea21520)
 
+ Opvallende features op onze squadpage zijn dat er een blur zit op de visite kaartjes.
+ Media queries op de blur.
+ We gebruiken en grid-layout waarbij sommige grid-items een grotere span hebben.
+
 
 
 # Squad page
