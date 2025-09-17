@@ -2,6 +2,32 @@ body {
     font-family: sans-serif;
 }
 
+h1 {
+    font-size: 8rem;
+    line-height: 90%;
+}
+
+.flex-header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: right;
+}
+
+.flex-header a {
+   margin: 0 0.7rem;
+}
+
+.flex-header a:hover {
+
+    @media (any-pointer: fine) {
+        text-decoration: underline;
+        scale: 1.1;
+    }
+}
+
+
+
 .bento-grid {
     display: grid;
     gap: 0.75rem;
