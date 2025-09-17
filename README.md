@@ -1,6 +1,8 @@
 
 Wij zijn Yassine, Anass en Mathijs.
-
+https://mathijsn.github.io/your-tribe-profile-card/
+https://yassineak1.github.io/your-tribe-profile-card/
+https://anass-kh.github.io/your-tribe-profile-card/
 Dit is ons eerste project als team. Wij hebben een pagina gemaakt waarin alle profile cards gekoppeld zijn in 1 pagina. Hiervoor hebben wij enkel HTML en CSS gebruikt.
 
 ![mockuuups-free-macbook-pro-mockup-on-stone-pedestal-min](https://github.com/user-attachments/assets/0a86e560-70d8-4386-aafd-90abdfb86ddd)
