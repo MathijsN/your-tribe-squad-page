@@ -2,21 +2,35 @@ body {
     font-family: sans-serif;
 }
 
+header {
+    max-width: 1279px;
+    margin: auto;
+}
+
 h1 {
-    font-size: 8rem;
+    font-size: 6rem;
     line-height: 90%;
+    margin: 1rem 0 2rem;
+
+    @media (width > 768px) {
+        font-size: 8rem;
+    }
 }
 
 .flex-header {
     display: flex;
     flex-direction: row;
     width: 100%;
-    justify-content: right;
+    justify-content: space-between;
     align-items: center;
+
+    @media (width > 768px) {
+        justify-content: end;
+    }
 }
 .flex-header p {
-    font-size: 0.6rem;
-    font-weight: bold;
+    font-size: 0.8rem;
+    font-weight: lighter;
     color: rgb(170, 170, 170);
 }
 
