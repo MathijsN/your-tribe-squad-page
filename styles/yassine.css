@@ -1,14 +1,16 @@
 body {
     background-color: rgb(205, 205, 205);
+    /* background-image: url(/assets/img/hva_compact_zwart_rgb.webp); */
 }
 
 .container{
+background-color: rgb(255, 255, 255);
 display: grid;
 justify-content: center;
-grid-template-columns: 1fr 1fr 1fr;
-gap: 100px;
-margin: 50px;
-padding: 70px;
+grid-template-columns: repeat(auto-fit, minmax(200px, 30%));
+gap: 40px;
+margin: 0px;
+padding: 100px 150px 150px 150px;
 }
 
 img{
@@ -19,15 +21,27 @@ border: rgb(162, 229, 244) 5px solid;
 border-radius: 5%;
 }
 
-.card-container.profile img {
-    filter: blur(5px);
-} 
-
-.card-container:hover img{
-  transform: scale(1.2);
-  filter: blur(0px);
-  transition: filter 260ms ease, transform 260ms ease;
+h3{
+    margin: 0px;
 }
+
+.card-container.profile img {
+  filter: blur(5px);
+  transition: filter 260ms ease-out;
+}
+
+a.card-container {
+  transition: transform 90ms ease-out;
+}
+
+a.card-container:hover {
+  transform: scale(1.1) rotate(360deg);
+}
+
+a.card-container:hover img {
+  filter: blur(0);
+}
+
 
 .name-label{
     color: rgb(0, 0, 0);
@@ -40,3 +54,38 @@ grid-row: span 2
 .card-container.profile{
     aspect-ratio: 16/9; 
 }
+
+/* 
+ 
+@media (max-width: 600px) {
+  .container {
+    grid-template-columns: 1fr;   
+    gap: 20px;                   
+    margin: 20px;
+    padding: 20px;
+  }
+
+  img {
+    border-width: 3px;            
+  }
+}
+
+
+@media (min-width: 601px) and (max-width: 1024px) {
+  .container {
+    grid-template-columns: 1fr 1fr;  
+    gap: 50px;                      
+    margin: 30px;
+    padding: 40px;
+  }
+}
+
+
+@media (min-width: 1025px) {
+  .container {
+    grid-template-columns: 1fr 1fr 1fr;  
+    gap: 100px;
+    margin: 50px;
+    padding: 70px;
+  }
+} */
