@@ -17,7 +17,7 @@ Opvallende features op onze squadpage zijn:
 ![mockuuups-free-macbook-pro-mockup-on-stone-pedestal-min](https://github.com/user-attachments/assets/0a86e560-70d8-4386-aafd-90abdfb86ddd)
 ![mockup-min](https://github.com/user-attachments/assets/62f3a884-6c56-4da5-8737-1f2ceea21520)
 
-.
+
 
 
 
