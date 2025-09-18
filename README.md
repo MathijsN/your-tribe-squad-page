@@ -10,7 +10,7 @@ Opvallende features op onze squadpage zijn:
 - Een blur zit op de visite kaartjes die weg gaat als je hovered.
 - Media queries die kijken of je kan hoveren.
 - We gebruiken een grid-layout waarbij sommige grid-items een grotere span hebben.
-- Een strak en minimalistisch design.
+- 100/100 performance score via [lighthouse-metrics.com](https://lighthouse-metrics.com/lighthouse/checks/dafa2b85-5325-49f7-a825-79f05737e5b3/runs/0ca42795-b707-4144-91f7-0cae72724f7a)
 
 ![mockuuups-free-macbook-pro-mockup-on-stone-pedestal-min](https://github.com/user-attachments/assets/0a86e560-70d8-4386-aafd-90abdfb86ddd)
 ![mockup-min](https://github.com/user-attachments/assets/62f3a884-6c56-4da5-8737-1f2ceea21520)
