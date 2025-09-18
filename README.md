@@ -3,6 +3,9 @@ Wij zijn [Yassine](https://yassineak1.github.io/your-tribe-profile-card/), [Anas
 
 Dit is ons eerste project als team. Wij hebben een pagina gemaakt waarin alle profile cards gekoppeld zijn in 1 pagina. Hiervoor hebben wij enkel HTML en CSS gebruikt.
 
+website link: https://edu.nl/k7cdc
+
+
 Opvallende features op onze squadpage zijn:
 - Een blur zit op de visite kaartjes die weg gaat als je hovered.
 - Media queries die kijken of je kan hoveren.
