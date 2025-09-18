@@ -10,7 +10,9 @@ header {
 
 h1 {
     font-size: 6rem;
+    /* line-height om de tekst iets dichter bij elkaar te krijgen (ziet er wat mooier uit) */
     line-height: 90%;
+    /* top 1rem, rechts en links 0, onder 2 rem*/
     margin: 1rem 0 2rem;
 
     @media (width > 768px) {
@@ -22,10 +24,12 @@ h1 {
     display: flex;
     flex-direction: row;
     width: 100%;
+    /* Houd de tekst uit elkaar voor 100% van de mogelijke breedte */
     justify-content: space-between;
     align-items: center;
 
     @media (width > 768px) {
+        /* Tekst helemaal naar rechts */
         justify-content: end;
     }
 }
@@ -38,6 +42,11 @@ h1 {
 .flex-header a {
    margin: 0 0.7rem;
 }
+
+/* 
+any-pointer: fine 
+Checked of de device word gebruikt met een muis of ander apparaat met hover state zoals een Apple pen.
+*/
 
 .flex-header a:hover {
 
@@ -57,8 +66,11 @@ h1 {
     max-width: 1279px;
     margin: auto;
 
+/* 
+Als de viewport width GROTER is dan 768px, dan: 
+*/
 
-    @media (width > 768px) {
+@media (width > 768px) {
         grid-template-columns: repeat(2, 1fr);
         gap: 1.25rem;
         
@@ -70,7 +82,11 @@ h1 {
         }
     }
 
-    @media (width > 1279px) {
+/* 
+Als de viewport width GROTER is dan 1279px, dan: 
+*/
+
+@media (width > 1279px) {
         grid-template-columns: repeat(3, 1fr);
         gap: 1.5rem;
     }
@@ -85,6 +101,10 @@ a {
     position: relative;
     overflow: hidden;
 }
+
+/* 
+Selecteerd alle directe childs individueel BINNEN de .bento-grid class.
+*/
 
 .bento-grid > * {
     transition: 0.25s ease-in-out;
@@ -106,33 +126,12 @@ a {
     }
 }
 
-
-
-
-/* doet het nog niet */
-
-.grid-wrapper:focus {
-        transform: scale(1.05);
-        border-bottom: 1px solid black;
-    
-        .grid-img {
-        filter: blur(0);
-        }
-    
-        .arrow-svg {
-        transform: rotate(45deg);
-        }
-}
-
-
-
-
-
-
 .grid-img {
     width: 100%;
     height: 200px;
     object-fit: cover;
+
+    /* background color voor als de image niet laad. */
     background-color: blueviolet;
     
     @media (any-pointer: fine) {
